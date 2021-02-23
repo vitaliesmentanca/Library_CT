@@ -13,7 +13,7 @@ public class ConfigurationReader {
     static {
         //2.Get the path and open the file
         try {
-            //3- we need to open the file
+            //3- we need to open the file.
             //2- get the path and store in String, or directly pass into fileInputStream obj
             //String ^path = "configuration.properties";
             FileInputStream file=new FileInputStream("configuration.properties");//<-- ^path
